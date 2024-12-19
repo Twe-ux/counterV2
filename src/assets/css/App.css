@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+}
+
+main {
+  height: calc(100vh - 390px);
+}
+
+.add-counter {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.add-counter button {
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  height: 60px;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.component {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.container {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-icon {
+  width: calc((174px - 80px) / 2);
+}
+
+.container button {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.container button:hover {
+  color: black;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  color: black;
+  background-color: cornflowerblue;
+}
+
+.reset {
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
